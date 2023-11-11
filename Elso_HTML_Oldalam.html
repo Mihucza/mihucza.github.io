@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML - Hypertext Matuel Language</title>
+</head>
+
+<body>
+    <!-- Ide jönnek a képek egy táblázatos formában-->
+<h1>TARTALOMJEGYZÉK</h1> <!--H1 főcímbő egy darab minden oldalon -->
+<hr>
+    
+<h1>Tagek:</h1> <!--H1 főcímbő egy darab minden oldalon -->
+
+    <h1>
+        &lt;h1&gt; tagek közé kerül a főcím h1-től h6-ig. &lt;/h1&gt; 
+    </h1>
+    
+    <p>
+        &lt;p&gt; tagek közé kerül a paragrafus vagy bekezdés - kitöltése &lt;/p&gt;
+    <p>
+        Automatikusan a Visual Code-ban kitölthető Emmet-tel. "Lorem20" vagy "(p>lorem20)*3"
+    </p>
+    <p>
+        &lt;hr&gt; - húz egy vízszintes vonalat és tagolja az oldalt - nincs zárópárja - ne használjuk. 
+    </p>
+    <p>
+        &lt;!-- - közé írható a megjegyzés --&gt; 
+    </p> 
+    <p>
+       &lt;br&gt; sortörés beszúrása - enternek minősül nincs zárópárja - ne használjuk. 
+    </p> 
+
+<h2>Szövegformázása:</h2>
+
+<h3>Kiemelések:</h3>
+
+    <p>
+       <b>&lt;b&gt; Bold-olja a közte lévő szöveget. &lt;/b&gt; </b> 
+    </p>
+    <p>
+        <strong>&lt;strong&gt; Strong - ez egy fontos szövegrész - böngészőfüggő a megjelenítés módja. &lt;/strong&gt; </strong> 
+     </p>
+     <p>
+        <i>&lt;i&gt; i - ez egy dőlt szövegrész &lt;/i&gt; </i> 
+     </p>
+     <p>
+        <em>&lt;em&gt; em - ez egy fontos szövegrész - böngészőfüggő a megjelenítés módja. &lt;/em&gt; </em> 
+     </p>
+     <p>    
+        <mark>&lt;mark&gt; mark - ez egy sárgán kiemelt szövegrész - böngészőfüggő a megjelenítés módja. &lt;/mark&gt; </mark> 
+     </p>
+     <p>    
+        <del>&lt;del&gt; del - ez egy áthúzott szövegrész - böngészőfüggő a megjelenítés módja. &lt;/del&gt; </del> 
+     </p>
+     <p>    
+        <ins>&lt;ins&gt; ins - ez egy aláhúzott szövegrész - böngészőfüggő a megjelenítés módja. &lt;/ins&gt; </ins> 
+     </p>
+     <p>    
+        <sup>&lt;sup&gt; sup - felsőindexbe kerül a szöveg. &lt;/sup&gt; </sup> 
+     </p>
+     <p>    
+        <sub>&lt;sub&gt; sub - felsőindexbe kerül a szöveg. &lt;/sub&gt; </sub> 
+     </p>
+    <p>    
+        <small>&lt;small&gt; small - ez egy kisebb Betűméret  - böngészőfüggő a megjelenítés módja. &lt;/small&gt; </small> 
+    </p>
+    <p>    
+        <big>&lt;big&gt; big - ez egy nagyobb Betűméret  - böngészőfüggő a megjelenítés módja. &lt;/big&gt; </big> 
+    </p>
+    <p>    
+        Vagy mégsem? <big>ez egy nagyobb Betűméret</big> 
+    </p>
+    <p>    
+        <abbr title="Ez rövidítés magyarázata"> &lt; abbr title="Szöveg" &gt; Ez a rövidítés magyarázata egy megjelenő szövegdobozban egér ráállás hatására &lt;/abbr&gt; </abbr> 
+    </p>
+    <p>    
+        <address> &lt; address &gt; Ez egy cím típusű szöveg - vakok felolvasására történő egyértelműsítés végett &lt;/address &gt; </addresss> 
+    </p>
+    <p>    
+        <q> &lt; q &gt; Ez egy idézet típusű szöveg - vakok felolvasására történő egyértelműsítés végett &lt;/q &gt; </q> 
+    </p>
+    <p>    
+        <blockquote> &lt; blockquote &gt; Ez egy többsoros behúzásszerű idézet típusű szöveg - vakok felolvasására történő egyértelműsítés végett &lt;/blockquote &gt; </blockqoute> 
+    </p>
+    <p>    
+       &lt; jelet megjeleníteni a "& l t"; szöveggel, míg a &gt; jelet a "& g t"; szöveggel lehet. 
+    </p>
+
+<h3>Linkek:</h3>
+    <p>    
+        <a href="https://index.hu"> &lt; a href="https://...." &gt; Weblaphivatkozás beszúrása azonos ablakban &lt; /a" &gt;
+   </p>
+    <p>    
+        <a target="_blank" href="https://kuruc.info"> &lt; a target="_blank" href="https://...." &gt; Weblaphivatkozás beszúrása új ablakban &lt; /a" &gt;
+    </p>
+    <p>    
+        <a title="Szövegbuborékban megjelenő szöveg" href="https://kuruc.info"> &lt; a title=Szövegbuborékban megjelenő szöveg href="https://...." &gt; Szövegbuborékban megjelenő szöveg a hivatkozáson egér hatására &lt; /a" &gt;</a>
+    </p>
+    <p>    
+        <a href="mailto:gmihucza@gmail.com"> &lt; a href="mailto:gmihucza@gmail.com" &gt; E-mail küldhető &lt; /a" &gt; </a>
+    </p>
+    <p>    
+        &lt; id="Egyéni azonoosító megadása:" &gt; erre lehet hivatkozni hogy az oldalon tudjunk ugrálni - ha valahol beszúrtuk "a href="#EgyéniAzonositot" - oda ugrik az oldalon.
+    </p>
+    <p>    
+        <img src="" alt="Nincs kép esetén szöveg"> &lt; img src="" alt="Nincs kép esetén szöveg" &gt; Kép beszűrása &lt; /a" &gt; </a>
+    </p>
+    <p>    
+        <img src="" alt="Nincs kép esetén szöveg"> &lt; img src="" alt="Nincs kép esetén szöveg" width="100" height="100" &gt; Kép méretezése
+    </p>
+    <p>    
+        &lt; map name="" &gt; Kép koordinátánként felosztva máshova navigál &lt; /map &gt; </a><br>
+        &lt; picture="" &gt; Felbontásoként és képernyőméretenként más képet jelenít meg &lt; /picture  &gt; </a>
+    </p>
+    <p>    
+        &lt; video src="" width="500"  controls alt="Rossz videó esetén a szöveg a mi megjelenik. " &gt; Video beszurasa <br>
+        Ha van rá mód célszerű a youtube beágyazás kódját bemásolni. <br>
+        &lt; iframe src="" frameborder="0" width="500"  controls alt="Rossz videó esetén a szöveg a mi megjelenik. " &gt; Youtube video belinkelése &lt; /iframe &gt; <br>
+        &lt; audio src="" controls alt="Rossz videó esetén a szöveg a mi megjelenik. " &gt; Hangfile beszúrása &lt; /audio &gt; <br>
+        
+    </p>
+    
+
+
+<h3>Táblázatok:</h3>
+    <p>    
+        &lt;table&gt; Új táblázat kezdete és vége &lt; table &gt; <br>
+        &lt;tr&gt; új sor a table tagek közé kerül &lt;/tr&gt; <br>
+        &lt;td&gt; új cellák a sorokban &lt;/td&gt; <br>
+        &lt;td style="outline: solid 5px &gt; új cellák a sorokban - a style körbekeretezi a szöveget &lt;/td&gt; <br>
+        &lt;th&gt; sorok fejléce &lt;/th&gt; <br>   
+        &lt;td rowspan="2" vagy colspan="2"&gt; összevonja a cellákat a megadott számban és irányban &lt;/td&gt; <br>   
+        &lt;colgroup &gt; <br>
+        &lt;col span="1" style="background-color: yellow"&gt; - Megszínezi a hátterek a megadott cellákra stílus adható meg &lt; /colgroup &gt; 
+        
+        <br>
+        <table>
+            <tr>
+                <th>Ez az első sor fejléce</th>
+            </tr>
+            <tr>
+                <td>A1</td>
+                <td>B1</td>
+                <td>C1</td>
+            </tr>
+            <tr>
+                <td>A2</td>
+                <td>B2</td>
+                <td>C2</td>
+            </tr>
+            <tr>
+                <td>A3</td>
+                <td>B3</td>
+                <td style="outline: solid 5px">C3</td>
+            </tr>
+        </table>
+    </p>
+
+    <br>
+    <table>
+        <colgroup>
+            <col span="1" style="background-color: yellow;">
+            <col span="1" style="background-color: green;">
+            <col span="2" style="background-color: blue;">
+        </colgroup>
+        <tr>
+            <th colspan="4">Több cella összevonása</th>
+        </tr>
+        <tr>
+            <td>A1</td>
+            <td colspan="2">B1</td>
+            <td>C1</td>
+        </tr>
+        <tr>
+            <td>A2</td>
+        </tr>
+        <tr>
+            <td rowspan="2">B3</td>
+            <td style="outline: solid 5px">C3</td>
+        </tr>
+    </table>
+</p>
+
+    <h3>CSS kód létrehozása:</h3>
+    <p> 
+        Ez felülírja a td class stílusát <br>   
+        &lt;style&gt; td{ outline: solid 5px } &lt; /style &gt; <br>
+        Létezik block - inline block - inline elem <br>
+        &lt;style&gt; * { outline: solid 5px } - csillag esetén az összes elemre vonatkozik. &lt; /style &gt; <br> 
+    </p>
+    <p>
+        Ha css filet akarunk használni akkor a head részben <br>
+        &lt; link rel="stylesheet" href="css/style.css" 
+    </p>
+<h3>Menűrendszer:</h3>
+    <p>    
+        <nav> &lt; nav &gt; Menurendszer &lt; /nav" &gt; </nav> 
+    </p>
+
+<h3>Lista:</h3>
+    <p>    
+        &lt; ul &gt; Lista kezdete - felsorolás  &lt; /ul &gt; <br>
+        &lt; ol &gt; Lista kezdete - számozott lista &lt; /ol &gt; <br>
+        &lt; li &gt; a listaelem az ul vagy ol tagek közé kerül  &lt; /li &gt; <br>
+    </p>
+ 
+    <p>    
+        &lt; dl &gt; Csoportosított listaelemek  &lt; /dl &gt; <br>
+        &lt; dt &gt; Főcsoportok &lt; /dt &gt; <br>
+        &lt; dd &gt; Alcsoportok  &lt; /dd &gt; <br>
+    </p>
+ 
+<h3>Könyvjelző - Konténer:</h3>
+    &lt; div &gt; Konténer elem  &lt; /div &gt; <br>
+    &lt; span &gt; Könyvjelző  &lt; /span &gt; <br>
+    
+<h3>Tematikus elemek:</h3>
+    &lt; header &gt; &lt; h1 &gt; Fejléc Főcím része &lt; h1 &gt; &lt; /header &gt; <br>
+    &lt; nav &gt; Menüsorhoz &lt; /nav &gt; <br>
+    &lt; main &gt; Weboldal lényegi tartalma &lt; /main &gt; <br>
+        <p>
+            &lt; article &gt; Egymásba ágyazható a sectionnal - weboldal tagolásához &lt; /article &gt; <br>
+            &lt; section &gt; Egymásba ágyazható az article-lel - weboldal tagolásához &lt; /section &gt; <br>
+            &lt; aside &gt; Egymásba ágyazható az article-lel - weboldal tagolásához &lt; /aside &gt; <br>
+            
+        </p>
+    &lt; footer &gt; Lábléc &lt; /footer &gt; <br>
+    
+    
+    &lt; span &gt; Könyvjelző  &lt; /span &gt; <br>
+
+<h3>Űrlapok:</h3>
+&lt; form action="" &gt; Urlap kezdete &lt; /form &gt; <br>
+&lt; label for="id_name" &gt; Label hozzákötése az inputhoz - ha label for értéke megegyezik az input id értékével. &lt; /label &gt; <br>
+&lt; input type="text" name="ValtozoNeve" id="Label_For_Name" required &gt; Input size="50": beviteli mező hossza -  hidden: rejtett / disable: zárolt - required kötelező mező - &lt; hr &gt; - sortörés <br>
+&lt; input type="text" name="ValtozoNeve" id="Label_For_Name" required &gt; Input: type="Text" - maxlength="50" &lt; hr &gt; - sortörés <br>
+&lt; input type="number" name="ValtozoNeve" id="Label_For_Name" required &gt; Input: type="Number" min="5" max="50" érték megadható - value="123": alapértelmezett érték - readonly: nem módosítható - step="2": érték növelése &lt; hr &gt; - sortörés <br>
+&lt; input type="date" / datetime-local name="ValtozoNeve" id="Label_For_Name" required &gt; Megadható egy dátum - alapértelmezett lesz a mai idő &lt; hr &gt; - sortörés
+&lt; input type="color" name="" id="" &gt; Megadható egy szín <br>
+&lt; input type="email" name="" id="" &gt; E-mail cím megadásához  <br>
+&lt; input type="password" name="" id="" &gt; jelszó megadásához - csillagokat jelez ki  <br>
+&lt; input type="range" name="" id="" step="" min="" max="" &gt; Csúszka - label jelzi ki az értékét. <br>
+&lt; input type="url" name="" id="" &gt; URL bevitele  <br>
+&lt; input type="tel" name="" id="" placeholder="00-00-000-0000" pattern="[0-9]{2}-[0-9]{2}-[0-9]{3}-[0-9]{4}&gt; Telefonszám bevitele - pattern a beviteli maszk megadása [] között, hogy ilyen karakter és {} között hány darab  <br>
+
+<p>CHECH-BOX:</p>
+&lt; label for="" &gt; Chechbox label megjelenítése &lt; /label &gt;  <br>
+&lt; input type="chechbox" name="" id="" value="" &gt; Chechbox kocka megjelenítése - value érték amit igaz esetén elküld. <br>
+
+<p>RadioButton:</p>
+&lt; label for="" &gt; Chechbox label megjelenítése &lt; /label &gt;  <br>
+&lt; input type="radio" name="" id="" value="" &gt; Radio botton megjelenítése - azonos name kell az összes opciónak, így csak egy jelölhető ki. <br>
+
+<p>Üzenet törzse</p>
+&lt; label for="" &gt; Chechbox label megjelenítése &lt; /label &gt;  <br>
+&lt; textarea name="" cols="" rows="" id="" value="" &gt; Ide írd a leveled: Levéltörzs megjelenítése - cols,rows a mérete az oldalon. &lt; /textarea &gt; <br>
+
+<p>Űrlap törlése és beküldése</p>
+&lt; input type="reset" value="Adatok törlése" &gt; Törli az űrlap adatait.  <br>
+&lt; input type="submit" value="Beküldés" &gt; Beküldi az űrlap adatait.  <br>
+&lt; button type="submit" &gt;"Beküldés" - Beküldi az űrlap adatait. &lt; /button &gt;  <br>
+
+<p>Az elküldés módját (get/post) a form action részében kell meghatározni. Regisztrálhatsz a Formspree oldalra, ami kezeli a beküldött formokat. </p>
+
+</body>
+</html>
